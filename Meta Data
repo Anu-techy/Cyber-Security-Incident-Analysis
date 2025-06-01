@@ -1,0 +1,36 @@
+About Dataset :
+==============
+This dataset captures the scale, nature, and impact of cyber incidents in India.
+
+===================
+Dataset Variables :
+===================
+Date of occurrence of Incident : The specific date of the cybercrime incident. 
+Understand Incident Frequency across various indian cities. 
+Understand Trend Analysis like how cybercrime has evolved over the years in terms of volume and impact.
+
+Amount_Lost_INR: The financial loss associated with the cybercrime incident, expressed in Indian Rupees (INR). 
+This variable highlights the economic impact of each cyberattack and can be used to assess the severity of different incidents. 
+
+Incident_Type:  This variable is crucial for understanding which types of cybercrimes 
+are most prevalent and how they differ in their impact. Incident Types covered are Cyber Bullying, Data Breach, Hacking, 
+Identity Theft, Malware, Online Fraud, phishing, Ransomware.
+
+City: The city where the incident occurred allows for the geographic analysis of cybercrime, 
+helping to identify high-risk areas and cities where certain types of cyberattacks are more common. 
+The prevalence of specific types of cybercrimes in particular cities or states.
+
+Category: The category of the entity affected by the cybercrime, such as Corporate, e-commerce, 
+educational, financial, government, health, personal, social media etc. This variable provides insights 
+into which sectors are more vulnerable to specific types of cyberattacks.
+
+=======
+Scope
+=======
+Compare cybersecurity data from India with other countries to identify global trends and regional differences in cybercrime.
+
+Include threats involving artificial intelligence and cryptocurrency to expand the scope of analysis.
+
+Add detailed technical information such as attacker tools, exploited vulnerabilities, and mitigation methods.
+
+Incorporate metrics like Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR) to better understand incident response.
