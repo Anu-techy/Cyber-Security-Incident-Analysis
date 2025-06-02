@@ -1,9 +1,9 @@
 **Introduction**
 
 India’s rapid digital transformation has led millions of users to rely on digital platforms for banking, communication, and commerce.
-While this growth fuels innovation, it also exposes the country to increasing cyber threats. 
+This growth exposes the country to increasing cyber threats. 
 Recognizing this, I chose to analyze real-world cybersecurity incident data to uncover meaningful patterns and insights 
-that can guide effective cyber risk management.
+that can guide effective in cyber risk management.
 
 **Problem Statement**
 
