@@ -1,6 +1,3 @@
-Hello all, and welcome. I'm Anusha, and today I’ll walk you through a dashboard I created recently for analyzing cybersecurity incidents in India.
-
-
 **Introduction**
 
 India’s rapid digital transformation has led millions of users to rely on digital platforms for banking, communication, and commerce.
