@@ -2,8 +2,10 @@
 
 India’s rapid digital transformation has led millions of users to rely on digital platforms for banking, communication, and commerce.
 This growth exposes the country to increasing cyber threats. 
-Recognizing this, I chose to analyze real-world cybersecurity incident data to uncover meaningful patterns and insights 
-that can guide effective in cyber risk management.
+That’s what drove me to create this dashboard—an in-depth analysis of cybersecurity incidents in India to uncover meaningful patterns and insights 
+that can guide in cyber risk management.
+
+Let’s dive into the data—and what it means for our digital defenses."
 
 **Problem Statement**
 
