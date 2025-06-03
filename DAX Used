@@ -1,0 +1,29 @@
+Amount Lost = SUM(cybersecurity_cases_india_combined[Amount_Lost_INR])
+
+Amount Lost LY = CALCULATE([Amount Lost], SAMEPERIODLASTYEAR(DateTable[Date]))
+
+No of incidents = COUNTROWS(cybersecurity_cases_india_combined)
+
+Avg Amt Lost per Incident = DIVIDE([Amount Lost],[No of incidents])
+
+Change pct in Loss Amount = DIVIDE([Amount Lost] - [Amount Lost LY],  [Amount Lost LY])
+
+City % Contribution (Amount Lost) = DIVIDE([Amount Lost], CALCULATE([Amount Lost], ALL('cybersecurity_cases_india_combined'[City])))
+
+Top Category by Loss (Millions) = 
+VAR TopCategory =
+    TOPN(
+        1,
+        SUMMARIZE(
+            'cybersecurity_cases_india_combined',
+            'cybersecurity_cases_india_combined'[Category],
+            "TotalLoss", [Amount Lost]
+        ),
+        [Amount Lost], DESC
+    )
+RETURN
+    CONCATENATEX(
+        TopCategory,
+        'cybersecurity_cases_india_combined'[Category] & " - ₹" &
+        FORMAT([Amount Lost] / 1000000, "#,##0.00") & " M",
+        ",")
